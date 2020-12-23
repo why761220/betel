@@ -1,4 +1,4 @@
-package betel
+package node
 
 type NodeType int
 type NodeStatus int
@@ -32,7 +32,7 @@ type Node struct {
 	KeyFile   string            `json:"keyFile,omitempty"`
 	Mapping   bool              `json:"mapping,omitempty"`
 	Mux       map[string]Router `json:"mux,omitempty"`
-	expires   int64
+	Expires   int64
 	Type      NodeType
 	Status    NodeStatus
 }

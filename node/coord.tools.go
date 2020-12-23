@@ -1,4 +1,4 @@
-package betel
+package node
 
 import (
 	mut "betel/vars"

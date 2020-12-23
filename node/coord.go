@@ -1,4 +1,4 @@
-package betel
+package node
 
 import (
 	"betel/errs"
@@ -381,10 +381,10 @@ func StartCoord(ctx context.Context, exited *sync.WaitGroup, args StartArgs) (er
 	return
 }
 
-func (this *Coord) nodeAdd(node *Node) {
+func (this *Coord) nodeAdd(n *Node) {
 	nodes := make(map[string]*Node)
-	node.expires = time.Now().Add(time.Minute).UnixNano()
-	nodes[node.ID] = node
+	n.Expires = time.Now().Add(time.Minute).UnixNano()
+	nodes[n.ID] = n
 	olds := *(*map[string]*Node)(atomic.LoadPointer((*unsafe.Pointer)(unsafe.Pointer(&this.nodes))))
 	for id, old := range olds {
 		if _, ok := nodes[id]; !ok {
@@ -400,7 +400,7 @@ func (this *Coord) updateRoutes(force bool) {
 	var expires map[string]struct{}
 	nodes := *(*map[string]*Node)(atomic.LoadPointer((*unsafe.Pointer)(unsafe.Pointer(&this.nodes))))
 	for id, node := range nodes {
-		if atomic.LoadInt64(&node.expires) < ti {
+		if atomic.LoadInt64(&node.Expires) < ti {
 			if expires == nil {
 				expires = make(map[string]struct{})
 			}
@@ -465,13 +465,13 @@ func (this *Coord) webGetNodes(w http.ResponseWriter, r *http.Request) {
 
 func (this *Coord) webAddNodes(w http.ResponseWriter, r *http.Request) {
 	id := r.URL.Path
-	var node Node
+	var n Node
 	ti := time.Now().UnixNano()
 	switch strings.ToUpper(r.Method) {
 	case "GET":
 		nodes := *(*map[string]*Node)(atomic.LoadPointer((*unsafe.Pointer)(unsafe.Pointer(&this.nodes))))
 		if node, ok := nodes[id]; ok {
-			old := atomic.SwapInt64(&node.expires, time.Now().Add(time.Minute).UnixNano())
+			old := atomic.SwapInt64(&node.Expires, time.Now().Add(time.Minute).UnixNano())
 			if old < ti {
 				this.updateRoutes(false)
 			}
@@ -481,10 +481,10 @@ func (this *Coord) webAddNodes(w http.ResponseWriter, r *http.Request) {
 	case "PUT", "POST":
 		if bs, err := ioutil.ReadAll(r.Body); err != nil {
 			http.Error(w, err.Error(), http.StatusInternalServerError)
-		} else if err = json.Unmarshal(bs, &node); err != nil {
+		} else if err = json.Unmarshal(bs, &n); err != nil {
 			http.Error(w, err.Error(), http.StatusInternalServerError)
 		} else {
-			this.chanAdd <- node
+			this.chanAdd <- n
 		}
 	default:
 		http.Error(w, http.StatusText(http.StatusMethodNotAllowed), http.StatusMethodNotAllowed)

@@ -1,4 +1,4 @@
-package betel
+package node
 
 import (
 	"betel/errs"
