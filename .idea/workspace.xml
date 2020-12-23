@@ -1,42 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="858fd429-2760-4f9e-8378-37c9a73c25f0" name="Default Changelist" comment="ignore">
-      <change afterPath="$PROJECT_DIR$/vars/expr.funcs.conv.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/expr.funcs.oper.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/expr.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/expr.parse.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/expr.query.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/frame.io.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/frame.query.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/frame.write.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/frame_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/indexes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/time.tools.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/time_tools_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/values.bool.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/values.count.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/values.distinct.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/values.float.avg.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/values.float.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/values.float.max.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/values.float.min.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/values.float.sum.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/values.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/values.int.avg.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/values.int.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/values.int.max.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/values.int.min.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/values.int.sum.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/values.nil.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/values.pools.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/values.str.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/values.time.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/values_test.go" afterDir="false" />
+    <list default="true" id="858fd429-2760-4f9e-8378-37c9a73c25f0" name="Default Changelist" comment="wangyong">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betel/coord.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/coord.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betel/coord.tools.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/coord.tools.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betel/coord.web.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/coord.web.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betel/daemon.node.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/daemon.node.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betel/data.flow.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/data.flow.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betel/data.lua.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/data.lua.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betel/data.node.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/data.node.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betel/data.query.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/data.query.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betel/data.store.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/data.store.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betel/data.unit.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/data.unit.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betel/data.write.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/data.write.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betel/data_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/data_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betel/mq.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/mq.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betel/node.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/node.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betel/proxy.node.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/proxy.node.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betel/proxy.query.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/proxy.query.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betel/py_code_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/py_code_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betel/utils.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/utils.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betel/view.node.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/view.node.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betel/web.node.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/web.node.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/frame.go" beforeDir="false" afterPath="$PROJECT_DIR$/vars/frame.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +56,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/errs" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\why76\OneDrive\src\go\betel\node" />
+      <recent name="C:\Users\why76\OneDrive\src\go\betel\node\proxy" />
+      <recent name="C:\Users\why76\OneDrive\src\go\betel\node\data" />
+      <recent name="C:\Users\why76\OneDrive\src\go\betel\node\coord" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\why76\OneDrive\src\go\betel\errs" />
     </key>
@@ -97,7 +96,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="ignore" />
+    <MESSAGE value="wangyong" />
+    <option name="LAST_COMMIT_MESSAGE" value="wangyong" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -116,41 +116,41 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="767" y="214" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608692222342" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1608692798242">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1608703788679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608692798242" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1608692798242">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608703788679" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1608703788679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608692798242" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1608692798242">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608703788679" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1608703788679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608692798242" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1608692798242">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608703788679" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1608703788679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608692798242" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1608692416008">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608703788679" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1608703788680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608692416008" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1608692416008">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608703788680" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1608703788679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608692416008" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1608692416008">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608703788679" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1608703788679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608692416008" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1608692416008">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608703788679" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1608703788679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608692416008" />
-    <state x="662" y="223" width="596" height="594" key="find.popup" timestamp="1608692818727">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608703788679" />
+    <state x="662" y="223" width="596" height="594" key="find.popup" timestamp="1608693221026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="223" width="596" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608692818727" />
+    <state x="662" y="223" width="596" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608693221026" />
   </component>
 </project>
