@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="858fd429-2760-4f9e-8378-37c9a73c25f0" name="Default Changelist" comment="" />
+    <list default="true" id="858fd429-2760-4f9e-8378-37c9a73c25f0" name="Default Changelist" comment="ignore">
+      <change afterPath="$PROJECT_DIR$/vars/expr.funcs.conv.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/expr.funcs.oper.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/expr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/expr.parse.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/expr.query.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/frame.io.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/frame.query.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/frame.write.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/frame_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/indexes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/time.tools.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/time_tools_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/values.bool.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/values.count.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/values.distinct.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/values.float.avg.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/values.float.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/values.float.max.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/values.float.min.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/values.float.sum.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/values.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/values.int.avg.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/values.int.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/values.int.max.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/values.int.min.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/values.int.sum.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/values.nil.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/values.pools.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/values.str.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/values.time.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vars/values_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars/frame.go" beforeDir="false" afterPath="$PROJECT_DIR$/vars/frame.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +51,14 @@
     </option>
   </component>
   <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1m2VxqgMQ7scwkgYYjdFi8gM54O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,6 +95,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
     <environment>
@@ -64,37 +108,49 @@
     </environment>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1608692037663">
+    <state x="832" y="417" key="Github.ShareDialog" timestamp="1608692205472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608692037663" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1608692037663">
+    <state x="832" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608692205472" />
+    <state x="767" y="214" key="Github.UntrackedFilesDialog" timestamp="1608692222342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608692037663" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1608692037662">
+    <state x="767" y="214" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608692222342" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1608692798242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608692037662" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1608692037663">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608692798242" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1608692798242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608692037663" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1608692037663">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608692798242" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1608692798242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608692037663" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1608692037663">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608692798242" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1608692798242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608692037663" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1608692037663">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608692798242" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1608692416008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608692037663" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1608692037663">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608692416008" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1608692416008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608692037663" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608692416008" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1608692416008">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608692416008" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1608692416008">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608692416008" />
+    <state x="662" y="223" width="596" height="594" key="find.popup" timestamp="1608692818727">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="223" width="596" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608692818727" />
   </component>
 </project>

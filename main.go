@@ -2,10 +2,10 @@ package main
 
 import (
 	"betel/errs"
-	"betel/vars"
+	vars "betel/vars"
 )
 
-func main(){
-	println(vars.ID())
+func main() {
+	println(vars.NewID())
 	println(errs.New("111"))
 }
